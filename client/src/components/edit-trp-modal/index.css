@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
+* {
+  font-family: "Rubik", sans-serif;
+}
+.edit-modal-styles {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3%;
+  width: auto !important;
+  height: auto !important;
+  border-radius: 15px !important;
+  background-color: white !important;
+  margin: 8%;
+}
+.select-styles {
+  width: 130px !important;
+  height: 35px;
+  margin: 1% 2%;
+  border: none !important;
+}
+.location-input {
+  width: 165px !important;
+  height: 35px;
+  margin-top: 2%;
+  border: none !important;
+}
+.save-trip {
+  margin: 5% 4% !important;
+  width: 44%;
+  height: 40px;
+  font-size: 12px !important;
+  background-color: #341ea0 !important;
+  border-radius: 5px !important;
+  color: #ffffff !important;
+}
+
+.return-button-styles {
+  width: 110px;
+  background: #5b5b5b !important;
+  color: white !important;
+  margin: 10px !important;
+}
+.save-button-styles {
+  width: 110px;
+  background: #341ea0 !important;
+  color: white !important;
+  margin: 10px !important;
+}
+.date-picker {
+  width: 61%;
+  background: #ffffff;
+  border: 1px solid #4b31ee !important;
+  border-radius: 10px !important;
+  height: 40px !important;
+  margin-left: 5% !important;
+}
+.react-datetime-picker__wrapper {
+  border-radius: 4px !important;
+  border: none !important;
+}
+.edit-trip-select {
+  width: 64% !important;
+  margin-left: 10px;
+}
+.location-container {
+  display: flex;
+  align-items: center;
+}
+.css-l3ln04-MuiAutocomplete-root .MuiOutlinedInput-root .MuiAutocomplete-input {
+  margin: 0px 4px 7.5px 6px !important ;
+  padding: 0px 4px 7.5px 6px !important ;
+}

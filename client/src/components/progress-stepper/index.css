@@ -1,0 +1,26 @@
+.stepper-class-style {
+  max-width: 250px !important;
+  margin: 0 30%;
+}
+@media screen and (max-width: 900px) {
+  .step-class-back {
+    width: 125% !important;
+  }
+  .stepper-class-style {
+    max-width: 250px !important;
+    margin: 0 10%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .stepper-class-style {
+    margin-left: -22px !important;
+    margin-right: 0 !important;
+  }
+  .step-class-back {
+    width: 125% !important;
+  }
+  .css-1bw0nnu-MuiStep-root {
+    width: 48%;
+    padding: 0 !important;
+  }
+}

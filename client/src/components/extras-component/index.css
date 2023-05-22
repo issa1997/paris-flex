@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
+* {
+  font-family: "Rubik", sans-serif;
+}
+.extras-card-style {
+  height: auto !important;
+  background: #ffffff;
+  box-shadow: 0px 4px 70px rgba(62, 62, 185, 0.08) !important;
+  border-radius: 20px !important;
+  display: flex;
+  flex-direction: column;
+  padding: 44px 34px 25px;
+  gap: 17px;
+}
+.icon-styles {
+  height: 18px;
+  width: 18px;
+  margin: 0px 5px;
+}
+.free-seats-styles {
+  border: 1px solid #969696;
+  border-radius: 10px;
+  width: 100%;
+  height: 65px;
+  vertical-align: center;
+}
+
+.heading-style {
+  font-weight: 500;
+  font-size: 18px !important;
+  line-height: 15px;
+  color: #000000;
+}
+.submit-styles-extras {
+  color: #ffffff !important;
+  width: 100% !important;
+  height: 45px !important;
+  background: #341ea0 !important;
+  border-radius: 12px !important;
+}
+.input-bx {
+  background: #ffffff;
+  border: 1px solid #4b31ee;
+  border-radius: 10px !important;
+  width: 90% !important;
+  height: 140px;
+  margin: 5px 0px !important;
+}
+.seats-text {
+  font-size: 10px !important;
+  margin: 0 5px;
+}
+@media screen and (min-width: 600px ) and (max-width: 900px) {
+.css-17vr6eg {
+  margin-left: 0 !important;
+}
+.css-9fbjay{
+  margin-left: 0 !important;
+  margin-bottom: 2% !important;
+}}

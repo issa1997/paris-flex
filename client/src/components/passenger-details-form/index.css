@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
+* {
+  font-family: "Rubik", sans-serif;
+}
+.passenger-detail-card-style-form {
+  width: auto;
+  box-shadow: 0px 4px 70px rgba(62, 62, 185, 0.08) !important;
+  border-radius: 20px !important;
+  display: flex;
+  flex-direction: column;
+  padding: 54px 20px 20px 42px !important;
+  gap: 17px;
+  height: auto !important;
+}
+.icon-styles {
+  margin: 0px 5px;
+}
+.heading-style {
+  font-weight: 500;
+  font-size: 16px !important;
+  line-height: 15px;
+  color: #000000;
+}
+
+.outlined-required {
+  background: #ffffff;
+  border: 1px solid #4b31ee;
+  border-radius: 10px !important;
+  height: 35px;
+  margin: 5% 0% !important;
+  width: 85%;
+}
+
+.warning-text {
+  font-size: 10px;
+  margin: 0;
+}
+.form-styles {
+  padding: 10px auto;
+}
+.submit-styles-button {
+  color: #ffffff !important;
+  width: 85% !important;
+  background: #341ea0 !important;
+  border-radius: 12px !important;
+}
+.css-9npbnl-MuiFormLabel-root-MuiInputLabel-root {
+  font-weight: 400 !important;
+  font-size: 12px !important;
+  line-height: 16px !important;
+  color: #000000 !important;
+}
+.submit-icon-style {
+  margin: 0 7px;
+}
+
+.MuiOutlinedInput-root {
+  background: #ffffff;
+  border: 1px solid #4b31ee;
+  border-radius: 10px !important;
+  height: 40px;
+  margin: 5% 0% !important;
+  width: 100%;
+}
+.css-1wc848c-MuiFormHelperText-root.Mui-error {
+  color: red !important;
+  font-weight: 700 !important;
+  margin-top: -3px !important;
+}
+.css-k4qjio-MuiFormHelperText-root.Mui-error {
+  color: red !important;
+  font-weight: 700 !important;
+}
+.css-1q6at85-MuiInputBase-root-MuiOutlinedInput-root {
+  width: 84% !important;
+}
+@media screen and (max-width: 600px) {
+  .submit-styles-button {
+    width: 78% !important;
+  }
+}

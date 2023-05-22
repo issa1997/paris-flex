@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
+* {
+  font-family: "Rubik", sans-serif;
+}
+.modal-styles {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3%;
+  height: 280px;
+  border-radius: 15px !important;
+  background: url("../../assets/modal-back.png") no-repeat center center fixed;
+}
+.close-icon {
+  float: right;
+  margin: 15px 10px 0 10px;
+}
+.modal-icon-corner {
+  bottom: 0;
+}
+.modal-heading {
+  color: #ffffff;
+  font-size: 16px !important;
+  font-weight: 900 !important;
+}
+.modal-content {
+  color: #ffffff;
+  font-size: 12px !important;
+}

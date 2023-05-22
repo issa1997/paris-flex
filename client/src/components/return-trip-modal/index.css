@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
+* {
+  font-family: "Rubik", sans-serif;
+}
+.return-modal-styles {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3%;
+  width: 600px;
+  height: auto !important;
+  border-radius: 15px !important;
+  background: white;
+  margin: 8% !important;
+}
+.time-picker {
+  width: 65%;
+  background: #ffffff;
+  border: 1px solid #4b31ee !important;
+  border-radius: 10px !important;
+  height: 40px !important;
+  margin-left: 10px !important;
+}
+.date-picker {
+  width: 69%;
+  background: #ffffff;
+  border: 1px solid #4b31ee !important;
+  border-radius: 10px !important;
+  height: 40px !important;
+  margin-left: 10px !important;
+}
+.react-datetime-picker__wrapper {
+  border-radius: 4px !important;
+  border: none !important;
+}
+
+.return-location-container {
+  display: flex;
+  align-items: center;
+}
+.return-trip-select {
+  width: 68% !important;
+  margin-left: 10px;
+}
+.css-l3ln04-MuiAutocomplete-root .MuiOutlinedInput-root .MuiAutocomplete-input {
+  margin: 0 4px 7.5px 6px !important ;
+}
